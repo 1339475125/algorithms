@@ -18,8 +18,6 @@ def ReverseList(pHead):
         pre = cur
         cur = tmp
     cur.next = pre
-    import pdb
-    pdb.set_trace()
     return cur
 
 
